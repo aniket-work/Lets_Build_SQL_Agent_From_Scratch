@@ -10,26 +10,10 @@ from langgraph.graph import MessageGraph, END
 from langgraph.prebuilt import ToolNode
 
 from constants import SQL_AGENT_INSTRUCTIONS
+from database import create_database_from_sql
 
 
 # Database setup functions
-def create_database_from_sql(sql_file_path, db_file_path):
-    conn = sqlite3.connect(db_file_path)
-    encodings = ['utf-8', 'latin-1', 'utf-16']
-    for encoding in encodings:
-        try:
-            with open(sql_file_path, "r", encoding=encoding) as sql_file:
-                sql_script = sql_file.read()
-            break
-        except UnicodeDecodeError:
-            if encoding == encodings[-1]:
-                raise
-            continue
-    conn.executescript(sql_script)
-    conn.commit()
-    conn.close()
-    print(f"Database created at {db_file_path}")
-
 
 def load_database(db_file_path):
     return SQLDatabase.from_uri(f"sqlite:///{db_file_path}")

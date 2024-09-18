@@ -1,0 +1,12 @@
+{
+    "database": {
+        "sql_file_path": "ecommerce_db.sql",
+        "db_file_path": "ecommerce.db",
+        "db_uri": "sqlite:///ecommerce.db"
+    },
+    "llm": {
+        "model": "llama3.1",
+        "format": "json",
+        "temperature": 0
+    }
+}

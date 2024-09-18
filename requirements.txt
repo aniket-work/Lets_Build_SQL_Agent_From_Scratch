@@ -1,0 +1,8 @@
+langchain-core
+langchain-community
+crewai[tools]
+langgraph
+langchain-groq
+python-dotenv
+litellm[proxy]
+streamlit

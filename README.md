@@ -1,29 +1,36 @@
-# Building Code RAG Using CodeLlama and Qdrant
-Lets_Build_SQL_Agent_From_Scratch
+# Why Every Company Will Have an SQL AI Agent: Let’s Build One from Scratch, All Locally
+
+Building a Local SQL AI Agent for Smarter Business Decisions
 
 
 ## Introduction
 
-Full Article : [https://medium.com/@learn-simplified/lotus-semantic-search-over-structured-unstructured-data-f24fed45af63
+Full Article : [https://medium.com/@learn-simplified/why-every-company-will-have-an-sql-ai-agent-lets-build-one-from-scratch-all-locally-dd47705763f5
 
-Hands on with Declarative prog model & optimized query engine for serving powerful reasoning-based query pipelines over structured and unstructured data
+
 
 
 ## What's This Project About
 
-This article breaks down the technical concepts of the research paper, "TAG: Semantic Search Over Structured & Unstructured Data", into simple language, making it accessible and exciting for readers unfamiliar with complex computer science.
-The paper presents an innovative search system, TAG, that uses AI to enhance semantic searches over various types of data. TAG's primary goal is to help users navigate massive datasets, whether they're structured (like databases) or unstructured (like articles or reports), by introducing AI-driven tools that can understand the meaning behind the data.
+As data continues to grow exponentially in volume and importance, the ability to quickly and easily access insights from databases is becoming critical for businesses across industries. However, writing complex SQL queries to extract meaningful information from databases requires specialized skills that many employees lack. This is where SQL AI agents are poised to revolutionize how companies interact with their data.
+
+Imagine you’re running a company and need quick answers from your database — like sales trends or inventory levels — without writing complex SQL queries. Today, this is possible with AI-powered SQL agents that allow users to ask questions in plain English. In this article, we’ll show you how to build a local SQL AI agent that automates data queries and makes accessing insights faster and simpler. You don’t need to be a SQL expert, and everything runs on your local system!
 
 ## Why Work on It?
 
-Understanding how TAG works can give you insight into the future of data search. As businesses, researchers, and individuals handle more information than ever before, they face a significant challenge in making sense of it all. TAG solves this by leveraging AI for smarter searches that go beyond keywords and into the meaning of the content itself. 
-Whether you're involved in data science, research, or just want to know how future technology will improve information processing, this article explains why TAG is important and how it can impact a wide range of fields.
+SQL AI agents, also known as natural language interfaces to databases (NLIDBs), allow users to query databases using plain English rather than having to write SQL code. These AI-powered tools translate natural language questions into SQL queries, execute them against the database, and return results in an easy-to-understand format.
+
+The technology behind SQL AI agents has made rapid progress in recent years, driven by advances in natural language processing and large language models. A 2023 study published in ACM Computing Surveys found that modern NLIDBs can achieve over 80% accuracy in translating natural language to SQL across a range of domains and database schemas
+
+This article is about building an SQL AI agent from scratch, designed to handle database queries using natural language. Instead of spending time writing and debugging SQL code, you’ll learn how to set up a system where users simply ask questions, and the agent does the rest.
+
+We’ll walk through the design of the system, from creating the database to integrating an AI-powered language model that converts natural language queries into SQL. The goal is to give you a practical understanding of how AI can transform the way businesses handle data.
 
 ## Architecture
 ![Design Diagram](design_docs/design.png)
 
 
-# Tutorial: Semantic Search Over Structured &amp; Unstructured Data
+# Tutorial: Local SQL AI Agent for Smarter Business Decisions
 
 ## Prerequisites
 - Python installed on your system.
@@ -67,7 +74,7 @@ Follow these steps to set up and run the 'Real Estate Advisory Company Using AI 
    This command installs all the necessary Python packages listed in the requirements.txt file.
 
 
-## Run - Semantic Search Over Structured &amp; Unstructured Data
+## Run - SQL Agent
 
    ```bash 
          

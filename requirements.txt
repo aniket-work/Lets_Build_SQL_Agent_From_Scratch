@@ -6,3 +6,5 @@ langchain-groq
 python-dotenv
 litellm[proxy]
 streamlit
+pandasai
+matplotlib

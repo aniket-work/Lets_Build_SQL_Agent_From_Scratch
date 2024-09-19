@@ -82,7 +82,3 @@ Follow these steps to set up and run the 'Real Estate Advisory Company Using AI 
       streamlit run app.py
       
    ```
-
-
-1. give me all customers
-2. 
